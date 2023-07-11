@@ -1,0 +1,46 @@
+-- Create tables
+CREATE TABLE Users (
+    user_id INT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Posts (
+    post_id INT PRIMARY KEY,
+    user_id INT NOT NULL,
+    caption VARCHAR(255),
+    image_url VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES Users(user_id)
+);
+
+CREATE TABLE Likes (
+    like_id INT PRIMARY KEY,
+    user_id INT NOT NULL,
+    post_id INT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES Users(user_id),
+    FOREIGN KEY (post_id) REFERENCES Posts(post_id)
+);
+
+-- Insert data into Users table
+INSERT INTO Users (user_id, username, email, password)
+VALUES (1, 'john_doe', 'john@example.com', 'password123'),
+       (2, 'jane_smith', 'jane@example.com', 'password456');
+
+-- Insert data into Posts table
+INSERT INTO Posts (post_id, user_id, caption, image_url)
+VALUES (1, 1, 'Beautiful sunset', 'https://example.com/sunset.jpg'),
+       (2, 2, 'Fun times with friends', 'https://example.com/friends.jpg');
+
+-- Insert data into Likes table
+INSERT INTO Likes (like_id, user_id, post_id)
+VALUES (1, 2, 1),
+       (2, 1, 2);
+
+-- Retrieve all posts and their likes
+SELECT p.post_id, p.caption, p.image_url, COUNT(l.like_id) AS num_likes
+FROM Posts p
+LEFT JOIN Likes l ON p.post_id = l.post_id
+GROUP BY p.post_id, p.caption, p.image_url;
