@@ -44,3 +44,4 @@ SELECT p.post_id, p.caption, p.image_url, COUNT(l.like_id) AS num_likes
 FROM Posts p
 LEFT JOIN Likes l ON p.post_id = l.post_id
 GROUP BY p.post_id, p.caption, p.image_url;
+//Hi
