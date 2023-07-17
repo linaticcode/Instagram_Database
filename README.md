@@ -1,5 +1,5 @@
-# Hostel Management System
- Welcome to Hostel Database Management system Project!
+# Instagram Database System
+ Welcome to Instagram Database system Project!
  
  If you like the repo do ⭐ it.
 # Project Overview
@@ -7,23 +7,19 @@
 
 # Basic Structure
 ## Database Entities
- There are 8 entities in this database. They are
- - Students
- - Hostel
- - Rooms
- - Work
- - Worker
- - Mess
- - Allotment
- - Complaints
-
+ There are 5 entities in this database. They are
+ - Users
+ - Photos
+ - Likes
+ - Follows
+ - Comments
  Each entity consists of several attributes.
 
 ## Entity Relationship diagram
-<img src="https://github.com/Abhinay-c/Hostel_management_system/assets/103677072/c6d70ae5-560e-4de0-bc45-3aa8e1de805c" alt="erd">
+<img src="" alt="erd">
 
 ## Relationship Schema
-<img src="https://github.com/Abhinay-c/Hostel_management_system/assets/95285514/8d4bf36b-3e60-421f-bccd-c996a2fe7192" alt="erd">
+<img src="" alt="erd">
 
 
 # Contributors
@@ -35,14 +31,9 @@
             <a href="https://github.com/linaticcode">Sambhav Sahoo</a>
         </th>
         <th>
-            <img src="https://github.com/Abhinay-c/Hostel_management_system/assets/95285514/a90450f9-8765-481d-b45d-2650739b4d15" alt="NB" width = 150px>
+            <img src="" alt="NB" width = 150px>
             <br>
-            <a href="https://github.com/Nikhil-0088">Nikhil B</a>
-        </th>
-        <th>
-            <img src="https://github.com/Abhinay-c/Hostel_management_system/assets/95285514/0f6af3b6-4e6f-47b6-b6bb-db1bd6fb3a29" alt="VB" width = 120px>
-            <br>
-            <a href="https://github.com/Vignesh0317">Vignesh Bejugam</a>
+            <a href="">Harsh Bhanarkar</a>
         </th>
     </tr>
 </table>
