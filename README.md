@@ -14,6 +14,7 @@ Instagram is a popular social media platform that allows users to share photos a
  - Likes
  - Follows
  - Comments
+   
  Each entity consists of several attributes.
 
 ## Entity Relationship diagram
