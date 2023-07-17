@@ -31,7 +31,7 @@
             <a href="https://github.com/linaticcode">Sambhav Sahoo</a>
         </th>
         <th>
-            <img src="" alt="NB" width = 150px>
+            <img src="https://avatars.githubusercontent.com/u/139684878?s=400&u=2a0103ed625edb14d4777d7336908ad504c83970&v=4" alt="ac" width = 120px>
             <br>
             <a href="">Harsh Bhanarkar</a>
         </th>
