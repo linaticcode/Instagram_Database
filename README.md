@@ -18,9 +18,7 @@ Instagram is a popular social media platform that allows users to share photos a
  Each entity consists of several attributes.
 
 ## Entity Relationship diagram
-<img src="![image](https://github.com/linaticcode/Instagram_Database/assets/105580131/600db44e-49f4-49bd-aee5-b557f1a20415)
-
-" alt="erd">
+<img src="![image](https://github.com/linaticcode/Instagram_Database/assets/105580131/600db44e-49f4-49bd-aee5-b557f1a20415)" alt="erd">
 
 ## Relationship Schema
 ![RELATIONSHIP SCHEMA](https://github.com/linaticcode/Instagram_Database/assets/105580131/2a2d6cda-a766-4d8d-904a-c12aec78e949)
